@@ -16,11 +16,28 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 50px;
   font-weight: bold;
   margin: 0;
   display: block;
   float: left; }
+.game-explanation {
+  margin-top: 50px;
+}
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.key td {
+font-size: 36px;
+height: 110px;
+}
+table>tbody>tr>td {
+  padding: 8px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}
 
 @-webkit-keyframes move-up {
   0% {
@@ -48,6 +65,7 @@ h1.title {
     opacity: 0; } }
 .scores-container {
   float: right;
+  padding-bottom: 30px;
   text-align: right; }
 
 .score-container, .best-container {
