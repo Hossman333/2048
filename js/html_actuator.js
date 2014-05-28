@@ -59,6 +59,7 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   if (tile.value == 4096) classes.push("tile-super");
   if (tile.value == 8192) classes.push("tile-doubleSuper");
+  if (tile.value == 16384) classes.push("tile-hax");
 
   this.applyClasses(wrapper, classes);
 

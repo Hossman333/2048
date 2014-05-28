@@ -21,22 +21,22 @@ h1.title {
   margin: 0;
   display: block;
   float: left; }
-.game-explanation {
-  margin-top: 50px;
-}
 .key .table {
   width: 100% !important;
   margin-bottom: 20px !important;
 }
-.key td {
-font-size: 36px;
-height: 110px;
-}
-td {
+.key table tbody tr td {
+  font-size: 36px;
+  height: 110px;
   padding: 8px;
   line-height: 2;
   vertical-align: top;
   border-top: 1px solid #ddd;
+}
+
+.key table thead tr td {
+  font-size: 36px;
+  padding-bottom: 20px;
 }
 
 @-webkit-keyframes move-up {
@@ -397,6 +397,12 @@ hr {
         font-size: 10px; } }
   .tile.tile-doubleSuper .tile-inner {
     background: url(../images/8192.png);
+  }
+  .tile.tile-hax .tile-inner {
+    background: url(../images/16384.png);
+  }
+  .tile.tile-question .tile-inner {
+    background: url(../images/question.png);
   }
 
 @-webkit-keyframes appear {
@@ -770,6 +776,12 @@ hr {
   }
   .tile.tile-doubleSuper .tile-inner {
     background: url(../images/8192_small.png);
+  }
+  .tile.tile-hax .tile-inner {
+    background: url(../images/16384_small.png);
+  }
+  .tile.tile-question .tile-inner {
+    background: url(../images/question_small.png);
   }
 
   }
