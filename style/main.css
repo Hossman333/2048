@@ -24,7 +24,7 @@ h1.title {
 .game-explanation {
   margin-top: 50px;
 }
-table.table {
+.key .table {
   width: 100% !important;
   margin-bottom: 20px !important;
 }
@@ -32,9 +32,9 @@ table.table {
 font-size: 36px;
 height: 110px;
 }
-table>tbody>tr>td {
+td {
   padding: 8px;
-  line-height: 1.42857143;
+  line-height: 2;
   vertical-align: top;
   border-top: 1px solid #ddd;
 }
