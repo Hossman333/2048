@@ -24,9 +24,9 @@ h1.title {
 .game-explanation {
   margin-top: 50px;
 }
-.table {
-  width: 100%;
-  margin-bottom: 20px;
+table.table {
+  width: 100% !important;
+  margin-bottom: 20px !important;
 }
 .key td {
 font-size: 36px;
